@@ -1,0 +1,20 @@
+footer{
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-evenly;
+}
+footer ul{
+    display: flex;
+    display: inline-block;
+    padding-top: 3rem;
+    padding-left: 15rem;
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+.redes{
+    color: white;
+}

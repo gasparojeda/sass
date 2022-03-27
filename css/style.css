@@ -1,0 +1,232 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  background-color: #F4CCCC;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  position: relative;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+nav ul a:hover {
+  color: white;
+}
+
+nav ul ul {
+  position: absolute;
+  display: none;
+}
+
+nav ul a:hover ul {
+  display: block;
+}
+
+footer {
+  background-color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: space-evenly;
+      align-content: space-evenly;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  padding-top: 3rem;
+  padding-left: 15rem;
+  color: white;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+}
+
+.redes {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/img/5570863.jpg);
+  background-size: stretch;
+  margin: 10px;
+}
+
+h1 {
+  text-decoration: none;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  font-style: bold;
+  word-spacing: 10px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+h1:hover {
+  color: #CEEFF2;
+  background-color: #979797;
+}
+
+.grid {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1 fr 1fr;
+      grid-template-rows: 1 fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+.catalogo {
+  text-decoration: none;
+}
+
+.novedades {
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "imgarticulo1 articulo1" "articulo2 imgarticulo2";
+}
+
+h2 {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  line-height: 1.5;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+}
+
+p {
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*formulario de contacto*/
+form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  padding: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+}
+
+table {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boton_whatsapp {
+  background-color: transparent;
+  text-align: right;
+  width: 25%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.medios {
+  text-align: center;
+}
+
+.promos {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.promo {
+  width: 300px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+/*# sourceMappingURL=style.css.map */
